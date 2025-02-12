@@ -1,4 +1,7 @@
+
+
 function userGreeting(props) {
+
     if (props.isLoggedIn) {
         return <h2>Welcome back {props.username}</h2>
     }
